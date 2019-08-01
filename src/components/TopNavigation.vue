@@ -60,24 +60,6 @@
 import { Slide } from "vue-burger-menu";
 export default {
   components: { Slide },
-  data() {
-    return {
-      showFullNav: null
-    };
-  },
-  created() {
-    window.addEventListener("resize", this.desktop);
-    this.screenSize();
-  },
-  methods: {
-    screenSize() {
-      if (window.innerWidth < 800) {
-        return (this.showFullNav = false);
-      } else {
-        return (this.showFullNav = true);
-      }
-    }
-  }
 };
 </script>
 <style lang="scss">

@@ -31,6 +31,10 @@ h6 {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 700;
 }
+p {
+  font-size: 14px;
+  color: rgb(222, 222, 222);
+}
 .header {
   display: flex;
   flex-direction: row;
@@ -39,7 +43,6 @@ h6 {
   margin-bottom: 20px;
   padding-top: 10px;
   height: 80px;
-  background: orange;
 }
 
 .nav__link {
@@ -65,12 +68,12 @@ h6 {
   padding-right: 8%;
 }
 @media (min-width: 320px) and (max-width: 580px) {
-  
   .container-padding {
-  padding-left: 4%;
-  padding-right: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .no-mobile {
+    display: none;
+  }
 }
-  
-}
-
 </style>
