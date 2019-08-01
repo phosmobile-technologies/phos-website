@@ -24,7 +24,6 @@
           <h4>Contact</h4>
         </g-link>
       </nav>
-      <div>start</div>
     </header>
     <div class="mobile--header">
       <g-link to="/">

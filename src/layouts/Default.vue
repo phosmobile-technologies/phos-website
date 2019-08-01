@@ -45,14 +45,12 @@ p {
   height: 80px;
 }
 
-.nav__link {
-  margin-left: 20px;
-}
-
 .nav {
   display: flex;
   text-transform: uppercase;
   text-decoration: none;
+  width: 600px;
+  justify-content: space-around;
 
   a {
     text-decoration: none;
@@ -67,6 +65,8 @@ p {
   padding-left: 8%;
   padding-right: 8%;
 }
+
+
 @media (min-width: 320px) and (max-width: 580px) {
   .container-padding {
     padding-left: 5%;
