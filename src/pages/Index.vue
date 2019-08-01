@@ -1,5 +1,6 @@
 <template>
   <Layout>
+    <div class="background">
     
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
     <g-image alt="Example image" src="~/favicon.png" width="135" />
@@ -9,6 +10,7 @@
     <p>
       Something is working here and it makes sense I want to send this to the repo
     </p>
+    </div>
 
     <p class="home-links">
       <a href="https://gridsome.org/docs" target="_blank" rel="noopener">Gridsome Docs</a>
@@ -30,4 +32,9 @@ export default {
 .home-links a {
   margin-right: 1rem;
 }
+
+  .background{
+    background: orange;
+  };
+
 </style>
