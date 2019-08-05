@@ -1,7 +1,7 @@
 <template>
-<div class="typing-section--container">
-    <vue-typer :text="typingText" class="typing-section--container"></vue-typer>
-    </div>
+<p class="typing-section--container">
+    <vue-typer :text="typingText" ></vue-typer>
+    </p>
 </template>
 
 <script>
@@ -17,7 +17,7 @@ export default {
 .typing-section--container{
     margin: 0 auto;
     text-align: center;
-    padding: 25px;
+    padding: 25px 0;
   }
 </style>
 

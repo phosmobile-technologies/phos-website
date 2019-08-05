@@ -1,7 +1,7 @@
 <template>
   <div class="background section-container container-padding">
     <div>
-      <div v-animate.fade="'slide-right'" class="section-line--title">
+      <div class="section-line--title">
         <h5>Design Matters</h5>
       </div>
       <div class="section-divider">

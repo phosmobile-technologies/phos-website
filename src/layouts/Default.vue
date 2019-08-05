@@ -21,6 +21,25 @@ body {
   line-height: 1.5;
 }
 
+//you can make changes to the vue typer component on the h1 here
+h1{
+.vue-typer {
+    .custom.char{
+        color: white !important;
+        &.typed {
+            color: black !important;
+        }
+        &.selected{
+          background-color: rgb(255, 77, 0);
+        }
+    }
+  .custom.caret {
+    &.typing::selection {
+      background: white;
+    }
+  }
+}
+}
 h1,
 h2,
 h3,
