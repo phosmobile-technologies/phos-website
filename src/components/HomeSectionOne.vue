@@ -14,7 +14,7 @@
             >Just having a website doesn’t work anymore, everyone seems to have one and it’s easy to think it’s not worth the hassle or the money. Having an effective website is not a walk in the park it takes creating an experience - attention to customers needs, a client path to answering their questions and leaving them coming back for more.</p>
           </div>
         </div>
-        <g-image src="../../static/venn_diagram.svg" />
+        <g-image v-animate="'appear'" src="../../static/venn_diagram.svg" />
       </div>
 
       <div v-animate.repeat.fade="'slide-up'" class="services-subsection">
@@ -74,6 +74,14 @@
     transform: translateX(0);
     opacity: 1;
 }
+
+.appear {
+    opacity: 0
+}
+.appear.animate-active {
+    opacity: 1;
+}
+
 .home-links a {
   margin-right: 1rem;
 }

@@ -1,12 +1,14 @@
 <template>
+<div class="typing-section--container">
     <vue-typer :text="typingText" class="typing-section--container"></vue-typer>
+    </div>
 </template>
 
 <script>
 export default {
     data(){
         return {
-            typingText: ["This is great"]
+            typingText: ["Great companies are built", "Do something great today", "Impossible doesn't exist here", "Customers deserve great experiences"]
         }
     }
 }

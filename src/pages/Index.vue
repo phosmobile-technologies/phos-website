@@ -3,6 +3,7 @@
     <HeroSection />
     <HomeSectionOne />
     <TypingDivider />
+    <InsightsSection />
   </Layout>
 </template>
 
@@ -10,10 +11,11 @@
 import HeroSection from "../components/Hero";
 import HomeSectionOne from "../components/HomeSectionOne";
 import TypingDivider from "../components/TypingSectionDivider";
+import InsightsSection from "../components/InsightsSection"
 export default {
-  components: { HeroSection, HomeSectionOne, TypingDivider },
+  components: { HeroSection, HomeSectionOne, TypingDivider, InsightsSection },
   metaInfo: {
-    title: "Hello, world!"
+    title: "PhosMobile | Design Matters"
   }
 };
 </script>
