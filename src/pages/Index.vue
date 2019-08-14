@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import HeroSection from "../components/Hero";
+import HeroSection from "../components/HomeHero";
 import HomeSectionOne from "../components/HomeSectionOne";
 import TypingDivider from "../components/TypingSectionDivider";
 import InsightsSection from "../components/InsightsSection"

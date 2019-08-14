@@ -2,11 +2,11 @@
   <div class="background section-container container-padding">
     <div>
       <div class="section-line--title">
-        <h5>Design Matters</h5>
+        <h5>People Matter</h5>
       </div>
       <div class="section-divider">
         <div class="section-divider--text">
-          <h1 class="section-title--big">Building Lasting Brands</h1>
+          <h1 class="section-title--big">Building Smarter Brands</h1>
           <div v-animate.repeat.fade="'slide-up'" class="section-text--divider">
             <p>Just having a website doesn’t work anymore, everyone seems to have one and it’s easy to think it’s not worth the hassle or the money. Having an effective website is not a walk in the park it takes creating an experience - attention to customers needs, a client path to answering their questions and leaving them coming back for more.</p>
             <p
@@ -86,13 +86,16 @@
   margin-right: 1rem;
 }
 .section-line--title {
-  color: white;
-  margin-top: 4em;
+  color: rgba(255, 255, 255, 0.817);
+  margin-top: 2em;
+  margin-bottom: 2em;
+
 
   h5 {
-    border-top: 2px solid white;
+    border-top: 2px solid rgba(255, 255, 255, 0.808);
     display: inline-block;
     padding-top: 8px;
+    font-weight: 300;
   }
 }
 .section-text--divider {
@@ -114,16 +117,17 @@
 
 .section-title--big {
   color: white;
-  font-size: 60px;
-  line-height: 70px;
+  font-size: 50px;
+  line-height: 60px;
   max-width: 500px;
+  margin: 0;
 }
 .section-container {
   display: flex;
   flex-direction: column;
 }
 .background {
-  background: black;
+  background: #000C17;
 }
 
 .services-subsection {
@@ -134,7 +138,7 @@
   .services-subsection--service{
     margin-right: 100px;
     h3{
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
     li {
       list-style: none;

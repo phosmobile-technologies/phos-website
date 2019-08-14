@@ -53,6 +53,22 @@ h6 {
 p {
   font-size: 14px;
   color: rgb(222, 222, 222);
+  .vue-typer {
+    .custom.char{
+        color: white !important;
+        &.typed {
+            color: black !important;
+        }
+        &.selected{
+          background-color: rgb(255, 77, 0);
+        }
+    }
+  .custom.caret {
+    &.typing::selection {
+      background: white;
+    }
+  }
+}
 }
 .header {
   display: flex;
@@ -68,13 +84,17 @@ p {
   display: flex;
   text-transform: uppercase;
   text-decoration: none;
-  width: 600px;
-  justify-content: space-around;
 
   a {
     text-decoration: none;
     font-size: 0.9em;
-    color: white;
+    color: orange;
+    background:  rgba(255, 166, 0, 0.146);
+    padding: 0 30px;
+
+    &.contact {
+      background: black;
+    }
   }
 }
 .layout {

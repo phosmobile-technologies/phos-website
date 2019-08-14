@@ -4,8 +4,7 @@
     <div class="content-container">
       <div class="hero-text">
         <h1>
-          We Design For
-          <br />
+          We Design <span>Smart</span> Websites and Apps For
           <vue-typer
             :text="typingText"
             pre-erase-delay="2500"
@@ -14,7 +13,7 @@
             class="typing-section--container"
           ></vue-typer>
         </h1>
-        <p>PhosMobile empower visionaries to solve problems through creative strategy, design and technology with quantifiable return on investment.</p>
+        <p>At PhosMobile we design Simple solutions with Measurable effects, Attractive visuals and Reliable technology that Transforms businesses </p>
       </div>whats here
     </div>
   </div>
@@ -39,9 +38,11 @@ export default {
 };
 </script>
 
+
+
 <style lang="scss" scoped>
 .container {
-  background: linear-gradient(118deg, #ff7f00 0%, #ff5500 96%);
+  background: white;
   height: 90vh;
 }
 .content-container {
@@ -52,20 +53,20 @@ export default {
 
 
 .hero-text {
-  max-width: 400px;
-  color: white;
+  max-width: 40vw;
+  color: black;
   align-self: flex-end;
   h1 {
-    font-size: 3em;
-    color: white;
-    max-width: 400px;
+    font-size: 2.9em;
+    color: black;
+    max-width: 40vw;
     line-height: 60px;
   }
   h1::selection {
-    background: white;
+    background: black;
   }
   p {
-    color: white;
+    color: black;
   }
 }
 

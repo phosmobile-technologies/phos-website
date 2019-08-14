@@ -20,8 +20,8 @@
         <g-link class="nav__link" to="/about">
           <h4>Blog</h4>
         </g-link>
-        <g-link class="nav__link" to="/about">
-          <h4>Contact</h4>
+        <g-link class="nav__link contact" to="/about">
+          <h4>Contact Us</h4>
         </g-link>
       </nav>
     </header>
@@ -94,13 +94,13 @@ export default {
 
   a {
     text-transform: uppercase;
-    color: white;
+    color: orange;
     padding: 0;
   }
 }
 
 .active--exact {
-  color: rgb(79, 40, 7) !important;
+  color: rgb(211, 95, 0) !important;
 }
 
 @media (min-width: 320px) and (max-width: 800px) {
